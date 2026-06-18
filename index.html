@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commercial & Controls Services – Integrated Ways of Working</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    .node { transition: all 0.3s ease; }
+    .node:hover { transform: scale(1.08); filter: brightness(1.1); }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white min-h-screen py-8">
+  <div class="max-w-7xl mx-auto px-6">
+    <h1 class="text-4xl font-bold text-center mb-2 text-teal-400">
+      Commercial & Controls Services
+    </h1>
+    <p class="text-center text-xl text-zinc-400 mb-10">Integrated Ways of Working</p>
+
+    <div class="flex justify-center">
+      <svg id="diagram" width="1100" height="900" class="bg-zinc-900 rounded-3xl shadow-2xl"></svg>
+    </div>
+
+    <div class="mt-10 flex justify-center">
+      <div class="bg-zinc-800 rounded-2xl p-6 max-w-md text-sm">
+        <div class="font-semibold text-teal-400 mb-3">How to Read This Diagram</div>
+        <div class="space-y-2 text-zinc-300">
+          <div>Focus Areas (Center) support → Goals (Middle Ring)</div>
+          <div>Goals are achieved through → Ways of Working (Outer Ring)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const svg = document.getElementById('diagram');
+
+    const focusAreas = [
+      "Project Delivery", "Risk", "Scheduling",
+      "Procurement", "Change Management", "Project Status"
+    ];
+
+    const goals = ["Efficiency", "Compliance", "Consistency"];
+
+    const ways = [
+      "Document Control", "File Naming Convention",
+      "Zero Attachment Policy", "Use of AI", "Microsoft Planner"
+    ];
+
+    const centerX = 550;
+    const centerY = 450;
+
+    function drawRing(radius, color) {
+      const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+      circle.setAttribute("cx", centerX);
+      circle.setAttribute("cy", centerY);
+      circle.setAttribute("r", radius);
+      circle.setAttribute("fill", "none");
+      circle.setAttribute("stroke", color);
+      circle.setAttribute("stroke-width", "2");
+      circle.setAttribute("stroke-opacity", "0.3");
+      svg.appendChild(circle);
+    }
+
+    drawRing(180, "#14b8a6");
+    drawRing(320, "#0ea5e9");
+    drawRing(460, "#10b981");
+
+    function placeNodes(items, radius, color, size, textColor) {
+      const angleStep = (2 * Math.PI) / items.length;
+
+      items.forEach((text, i) => {
+        const angle = i * angleStep - Math.PI / 2;
+        const x = centerX + radius * Math.cos(angle);
+        const y = centerY + radius * Math.sin(angle);
+
+        const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        rect.setAttribute("x", x - size / 2);
+        rect.setAttribute("y", y - 28);
+        rect.setAttribute("width", size);
+        rect.setAttribute("height", "56");
+        rect.setAttribute("rx", "12");
+        rect.setAttribute("fill", color);
+        rect.setAttribute("class", "node");
+        svg.appendChild(rect);
+
+        const txt = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        txt.setAttribute("x", x);
+        txt.setAttribute("y", y + 5);
+        txt.setAttribute("text-anchor", "middle");
+        txt.setAttribute("fill", textColor);
+        txt.setAttribute("font-size", "15");
+        txt.setAttribute("font-weight", "600");
+        txt.textContent = text;
+        svg.appendChild(txt);
+      });
+    }
+
+    placeNodes(focusAreas, 150, "#334155", 160, "#e0f2fe");
+    placeNodes(goals, 290, "#1e40af", 150, "#bae6fd");
+    placeNodes(ways, 430, "#166534", 170, "#d1fae5");
+  </script>
+</body>
+</html>

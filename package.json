@@ -1,0 +1,22 @@
+{
+  "name": "strategy-radial-diagram",
+  "version": "1.0.0",
+  "description": "Three-ring strategy diagram with HTML view and tldraw-compatible exports",
+  "type": "module",
+  "scripts": {
+    "generate:tldraw": "tsx scripts/generate-tldraw.ts"
+  },
+  "keywords": [
+    "tldraw",
+    "diagram",
+    "strategy",
+    "radial"
+  ],
+  "author": "KovaForge",
+  "license": "MIT",
+  "devDependencies": {
+    "happy-dom": "^17.4.4",
+    "tldraw": "^5.1.1",
+    "tsx": "^4.19.4"
+  }
+}
