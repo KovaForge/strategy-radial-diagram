@@ -15,12 +15,12 @@
     "Change Management",
     "Project Status"
   ],
-  "goals": ["Efficiency", "Compliance", "Consistency"],
+  "goals": ["Efficiency", "Compliance", "Consistency", "Collaboration"],
   "ways": [
     "Document Control",
-    "File Naming Convention",
+    "File Naming Conventions",
     "Zero Attachment Policy",
-    "Use of AI",
+    "Copilot",
     "Microsoft Planner"
   ],
   "layout": {

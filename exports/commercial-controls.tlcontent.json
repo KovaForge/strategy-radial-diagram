@@ -66,7 +66,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a1SUdXbG",
+      "index": "a10gj18V",
       "typeName": "shape"
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a2kzPG9G",
+      "index": "a2Kfa3dV",
       "typeName": "shape"
     },
     {
@@ -139,7 +139,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a3JoJ6bV",
+      "index": "a3U4YPal",
       "typeName": "shape"
     },
     {
@@ -176,7 +176,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a4rkW3PV",
+      "index": "a48tCOTV",
       "typeName": "shape"
     },
     {
@@ -213,7 +213,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a5gs3glV",
+      "index": "a5FdlnzG",
       "typeName": "shape"
     },
     {
@@ -256,7 +256,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a6qbdBFV",
+      "index": "a6jxfXPV",
       "typeName": "shape"
     },
     {
@@ -299,7 +299,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a7UVwSYG",
+      "index": "a7iBIiiV",
       "typeName": "shape"
     },
     {
@@ -342,7 +342,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a8elE4bV",
+      "index": "a8vARSsV",
       "typeName": "shape"
     },
     {
@@ -385,7 +385,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "a9779DKV",
+      "index": "a9LE3upV",
       "typeName": "shape"
     },
     {
@@ -428,7 +428,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aAJGPMuV",
+      "index": "aAYA9zz8",
       "typeName": "shape"
     },
     {
@@ -471,7 +471,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aBWaUTmG",
+      "index": "aBPAjikV",
       "typeName": "shape"
     },
     {
@@ -514,12 +514,12 @@
         }
       },
       "parentId": "page:page",
-      "index": "aCdlgDjV",
+      "index": "aCMzyUbd",
       "typeName": "shape"
     },
     {
-      "x": 726.1473670974872,
-      "y": 567,
+      "x": 765,
+      "y": 422,
       "rotation": 0,
       "isLocked": false,
       "opacity": 1,
@@ -557,12 +557,12 @@
         }
       },
       "parentId": "page:page",
-      "index": "aDtUjKxl",
+      "index": "aDv6On6V",
       "typeName": "shape"
     },
     {
-      "x": 223.85263290251282,
-      "y": 567.0000000000001,
+      "x": 475,
+      "y": 712,
       "rotation": 0,
       "isLocked": false,
       "opacity": 1,
@@ -600,7 +600,50 @@
         }
       },
       "parentId": "page:page",
-      "index": "aEafgUil",
+      "index": "aEMpzGfG",
+      "typeName": "shape"
+    },
+    {
+      "x": 185,
+      "y": 422.00000000000006,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:goal-3",
+      "type": "geo",
+      "props": {
+        "w": 150,
+        "h": 56,
+        "geo": "rectangle",
+        "dash": "draw",
+        "growY": 0,
+        "url": "",
+        "scale": 1,
+        "color": "blue",
+        "labelColor": "light-blue",
+        "fill": "solid",
+        "size": "m",
+        "font": "draw",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Collaboration"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "aFULcWUt",
       "typeName": "shape"
     },
     {
@@ -643,7 +686,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aFUepjUt",
+      "index": "aGKhyY8V",
       "typeName": "shape"
     },
     {
@@ -678,7 +721,7 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "File Naming Convention"
+                  "text": "File Naming Conventions"
                 }
               ]
             }
@@ -686,7 +729,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aGAAfPpV",
+      "index": "aHy53YXV",
       "typeName": "shape"
     },
     {
@@ -729,7 +772,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aHx9R08V",
+      "index": "aIOaYwfV",
       "typeName": "shape"
     },
     {
@@ -764,7 +807,7 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "Use of AI"
+                  "text": "Copilot"
                 }
               ]
             }
@@ -772,7 +815,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aIQvp9yV",
+      "index": "aJuheHxV",
       "typeName": "shape"
     },
     {
@@ -815,7 +858,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aJTKFYMV",
+      "index": "aKJr8odV",
       "typeName": "shape"
     },
     {
@@ -876,7 +919,7 @@
         }
       },
       "parentId": "page:page",
-      "index": "aKKysZYV",
+      "index": "aLMmHdQV",
       "typeName": "shape"
     }
   ],
@@ -895,6 +938,7 @@
     "shape:goal-0",
     "shape:goal-1",
     "shape:goal-2",
+    "shape:goal-3",
     "shape:way-0",
     "shape:way-1",
     "shape:way-2",
